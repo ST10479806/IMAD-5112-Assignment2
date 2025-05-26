@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A0524D"
+    tools:context=".QuizReview">
+
+    <TextView
+        android:id="@+id/txtAnswer"
+        android:layout_width="356dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="28dp"
+        android:text="The first Black President of South Africa was Nelson Mandela,TRUE"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtAnswer2"
+        android:layout_width="346dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="38dp"
+        android:text="World War 2 ended in 1942, FALSE"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAnswer" />
+
+    <TextView
+        android:id="@+id/txtAnswer3"
+        android:layout_width="333dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="44dp"
+        android:text="The Berlin Wall fell in 1985, FALSE"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAnswer2" />
+
+    <TextView
+        android:id="@+id/txtAnswer4"
+        android:layout_width="317dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="68dp"
+        android:text="Nelson Mandela spent 27 years in prison, TRUE"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAnswer3" />
+
+    <TextView
+        android:id="@+id/txtAnswer5"
+        android:layout_width="328dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="56dp"
+        android:text="Ancient Pyramids originate in Egypt, TRUE"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAnswer4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
